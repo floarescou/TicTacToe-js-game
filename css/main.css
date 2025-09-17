@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 @font-face {
     font-family: "Gilroy";
     src: local("Gilroy Bold"), local("Gilroy-Bold"),
@@ -11,6 +12,7 @@
     font-weight: 700;
     font-display: swap;
 }
+
 .btn {
     width: 138px;
     height: 48px;
@@ -25,6 +27,7 @@
     font-size: inherit;
     color: inherit;
 }
+
 body {
     position: relative;
     height: 100vh;
@@ -48,26 +51,31 @@ body {
 }
 
 .wrapper {
-    padding: 47px 0 52px 0;
-
+    /*padding: 47px 0 52px 0;*/
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .main-title {
     margin-bottom: 15px;
 }
+
 .main h1 {
     font-size: 26px;
     color: #805230;
 }
+
 .start {
     margin-bottom: 25px;
 }
+
 .start-btn {
     position: relative;
     z-index: 2;
 }
+
 .players {
     display: flex;
     align-items: center;
@@ -75,6 +83,7 @@ body {
     column-gap: 30px;
     margin-bottom: 25px;
 }
+
 .player {
     width: 135px;
     height: 45px;
@@ -83,6 +92,7 @@ body {
     align-items: center;
     justify-content: center;
 }
+
 .player-red {
     background-color: #BA4228;
     border-radius: 0 10px 0 10px;
@@ -92,6 +102,7 @@ body {
     background-color: #DE7235;
     border-radius: 10px 0 10px 0;
 }
+
 .game-area {
     width: 300px;
     height: 300px;
@@ -102,6 +113,7 @@ body {
     grid-template-rows: repeat(3, 1fr);
     gap: 7px;
 }
+
 .game-area__cell {
     position: relative;
     cursor: pointer;
@@ -114,21 +126,27 @@ body {
     align-items: center;
     justify-content: center;
 }
+
 .game-area__cell-1, .game-area__cell-9 {
     border-radius: 0 20px;
 }
+
 .game-area__cell-2 {
     border-radius: 20px 20px 0 0;
 }
+
 .game-area__cell-3, .game-area__cell-7 {
     border-radius: 20px 0;
 }
+
 .game-area__cell-4 {
     border-radius: 20px 0 0 20px;
 }
+
 .game-area__cell-6 {
     border-radius: 0 20px 20px 0;
 }
+
 .game-area__cell-8 {
     border-radius: 0 0 20px 20px;
 }
