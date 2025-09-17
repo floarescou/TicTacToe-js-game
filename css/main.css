@@ -29,8 +29,8 @@
 }
 
 body {
-    position: relative;
-    height: 100vh;
+    /*position: relative;*/
+    /*height: 100vh;*/
     overflow: hidden;
 
     font-family: "Gilroy", sans-serif;
